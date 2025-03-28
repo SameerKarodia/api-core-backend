@@ -28,6 +28,8 @@ app.use(
   cors({
     origin: [
       process.env.WOUESSI_FRONTEND_URL,
+      "http://localhost:3000",
+
       "https://dev.wouessi.com/en",
       "https://dev.wouessi.com",
       "https://www.wouessi.com/en",
